@@ -15,10 +15,10 @@ const cartoons = [
   { name: "Dexter's Laboratory", debut: 1996 }
 ]
 
-let oldestCartoon = cartoons[0] // Inicializa con el primer cartoon
+let oldestCartoon = cartoons[0]
 for (let i = 1; i < cartoons.length; i++) {
   if (cartoons[i].debut < oldestCartoon.debut) {
-    oldestCartoon = cartoons[i] // Actualiza si se encuentra uno más antiguo
+    oldestCartoon = cartoons[i]
   }
 }
-console.log(oldestCartoon.name) // Imprime el nombre de la serie más antigua
+console.log(oldestCartoon.name)
